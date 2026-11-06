@@ -1,0 +1,205 @@
+﻿item_id,vector_id,vector_bn,premise_bn,hypothesis_bn,label,tested_meaning,premise_type,source,verified
+N001,V01,ফেলা,সে পুরো ভাতটা খেয়ে ফেলল।,থালায় আর কোনো ভাত নেই।,entailment,completion,vector,authored,False
+N002,V01,ফেলা,সে ভাত খাচ্ছিল।,থালায় আর কোনো ভাত নেই।,not_entailment,completion (control),simple_verb,authored,False
+N003,V01,ফেলা,রাগের মাথায় সে কথাটা বলে ফেলল।,সে অনেক ভেবেচিন্তে কথাটা বলল।,not_entailment,without hesitation,vector,authored,False
+N004,V01,ফেলা,সে চিঠিটা পড়ে মেঝেতে ফেলল।,চিঠিটা মেঝেতে আছে।,entailment,literal drop (control),full_verb,authored,False
+N005,V02,দেওয়া,দিদি আমার চুলটা বেঁধে দিল।,দিদি কাজটা আমার জন্য করল।,entailment,benefactive (other),vector,authored,False
+N006,V02,দেওয়া,দিদি নিজের চুলটা বাঁধল।,দিদি কাজটা আমার জন্য করল।,not_entailment,benefactive (control),simple_verb,authored,False
+N007,V02,দেওয়া,বাবা আমাকে একটা সাইকেল কিনে দিলেন।,সাইকেলটা আমার জন্য কেনা হয়েছে।,entailment,benefactive (other),vector,authored,False
+N008,V02,দেওয়া,সে আমার জন্য দরজাটা খুলে দিল।,সে আমার হাতে কিছু একটা তুলে দিল।,not_entailment,literal give lost,vector,authored,False
+N009,V03,নেওয়া,আগে আমি নিজের ঘরটা গুছিয়ে নিই।,আমি কাজটা নিজের জন্য করছি।,entailment,self-benefactive,vector,authored,False
+N010,V03,নেওয়া,পরীক্ষার আগে সে পড়াটা দেখে নিল।,সে কোথাও থেকে একটা জিনিস হাতে তুলে নিল।,not_entailment,literal take lost,vector,authored,False
+N011,V03,নেওয়া,সে বইগুলো দেখে তাক থেকে একটা নিল।,সে তাক থেকে একটা বই হাতে নিল।,entailment,literal take (control),full_verb,authored,False
+N012,V04,বসা,সে সবার সামনে গোপন কথাটা বলে বসল।,কথাটা বলা তার উচিত হয়নি।,entailment,undesirable/unexpected,vector,authored,False
+N013,V04,বসা,সে সবার সামনে গোপন কথাটা বলে বসল।,কথা বলার পর সে চেয়ারে বসল।,not_entailment,literal sit lost,vector,authored,False
+N014,V04,বসা,সে কথাটা বলে চেয়ারে বসল।,কথা বলার পর সে চেয়ারে বসল।,entailment,literal sit (control),full_verb,authored,False
+N015,V04,বসা,রাগের মাথায় সে একটা ভুল করে বসল।,সে পরিকল্পনা করে ইচ্ছাকৃতভাবে ভুলটা করল।,not_entailment,unplanned action,vector,authored,False
+N016,V05,ওঠা,শিশুটা হঠাৎ কেঁদে উঠল।,শিশুটা কান্না শুরু করল।,entailment,inception/suddenness,vector,authored,False
+N017,V05,ওঠা,শিশুটা হঠাৎ কেঁদে উঠল।,শিশুটা কোথাও উপরে উঠল।,not_entailment,literal rise lost,vector,authored,False
+N018,V05,ওঠা,আমি এখনও লেখাটা লিখে উঠতে পারিনি।,লেখাটা শেষ হয়েছে।,not_entailment,managing to finish,vector,authored,False
+N019,V05,ওঠা,সে হেসে মঞ্চে উঠল।,সে মঞ্চের উপরে আছে।,entailment,literal rise (control),full_verb,authored,False
+N020,V06,যাওয়া,মেয়েটা সকাল থেকে খেলে যাচ্ছে।,মেয়েটা এখনও খেলছে।,entailment,continuation,vector,authored,False
+N021,V06,যাওয়া,মেয়েটা সকাল থেকে খেলে যাচ্ছে।,মেয়েটা অন্য কোথাও চলে যাচ্ছে।,not_entailment,literal go lost,vector,authored,False
+N022,V06,যাওয়া,গরমে দুধটা নষ্ট হয়ে গেল।,দুধটা এখন আর খাওয়ার যোগ্য নেই।,entailment,change of state,vector,authored,False
+N023,V06,যাওয়া,মেয়েটা খেলে বাড়ি গেল।,মেয়েটা এখনও খেলছে।,not_entailment,literal go (control),full_verb,authored,False
+N024,V07,পড়া,বাচ্চাটা ঘুমিয়ে পড়েছে।,বাচ্চাটা এখন ঘুমাচ্ছে।,entailment,resulting state,vector,authored,False
+N025,V07,পড়া,বাচ্চাটা ঘুমিয়ে পড়েছে।,বাচ্চাটা কোথাও থেকে নিচে পড়ে গেছে।,not_entailment,literal fall lost,vector,authored,False
+N026,V07,পড়া,খবরটা শুনে সে ভেঙে পড়ল।,সে খুব কষ্ট পেল।,entailment,sudden change of state,vector,authored,False
+N027,V07,পড়া,পুরোনো দেয়ালটা ভেঙে রাস্তায় পড়ল।,দেয়ালের টুকরো রাস্তায় আছে।,entailment,literal fall (control),full_verb,authored,False
+N028,V08,রাখা,মা সব খাবার রান্না করে রেখেছেন।,খাবারটা আগে থেকেই তৈরি আছে।,entailment,done in advance,vector,authored,False
+N029,V08,রাখা,মা সব খাবার রান্না করে রেখেছেন।,মা খাবারটা টেবিলের উপর রাখলেন।,not_entailment,literal keep lost,vector,authored,False
+N030,V08,রাখা,সে আগেই ট্রেনের টিকিট কেটে রেখেছে।,যাওয়ার দিনে তাকে টিকিট কাটতে হবে।,not_entailment,done in advance,vector,authored,False
+N031,V09,আসা,আমি কবে থেকে কথাটা বলে আসছি।,আমি অনেকদিন ধরে কথাটা বলছি।,entailment,long duration up to now,vector,authored,False
+N032,V09,আসা,আমি কবে থেকে কথাটা বলে আসছি।,আমি কোথাও থেকে এখানে আসছি।,not_entailment,literal come lost,vector,authored,False
+N033,V09,আসা,সন্ধ্যা হয়ে এল।,এখন পুরোপুরি রাত।,not_entailment,approaching (not yet complete),vector,authored,False
+N034,V10,আনা,সে লেখাটা প্রায় শেষ করে এনেছে।,লেখাটা এখনও পুরোপুরি শেষ হয়নি।,entailment,approaching completion,vector,authored,False
+N035,V10,আনা,সে লেখাটা প্রায় শেষ করে এনেছে।,সে লেখাটা কোথাও থেকে নিয়ে এসেছে।,not_entailment,literal bring lost,vector,authored,False
+N036,V11,তোলা,সে গল্প বলে আড্ডাটা জমিয়ে তুলল।,আড্ডাটা প্রাণবন্ত হয়ে উঠল।,entailment,attainment,vector,authored,False
+N037,V11,তোলা,তারা ধীরে ধীরে শহরটা গড়ে তুলল।,শহরটা এক দিনেই তৈরি হলো।,not_entailment,attainment over time,vector,authored,False
+N038,V12,চলা,ছেলেটা সকাল থেকে কাজ করে চলেছে।,ছেলেটা একটানা কাজ করছে।,entailment,continuous action,vector,authored,False
+N039,V12,চলা,ছেলেটা সকাল থেকে কাজ করে চলেছে।,ছেলেটা হেঁটে কোথাও যাচ্ছে।,not_entailment,literal walk lost,vector,authored,False
+N040,V13,পাঠানো,হেডমাস্টার ছাত্রটাকে ডেকে পাঠালেন।,অন্য কারও মাধ্যমে ছাত্রটাকে খবর দেওয়া হলো।,entailment,causative (through someone),vector,authored,False
+N041,V13,পাঠানো,হেডমাস্টার ছাত্রটাকে ডেকে পাঠালেন।,হেডমাস্টার নিজে গিয়ে ছাত্রটাকে ডাকলেন।,not_entailment,causative (through someone),vector,authored,False
+N042,V14,বেড়ানো,ছেলেটা সারাদিন ঘুরে বেড়াচ্ছে।,ছেলেটা উদ্দেশ্য ছাড়াই এদিক-ওদিক ঘুরছে।,entailment,aimless/iterative,vector,authored,False
+N043,V14,বেড়ানো,সে সবার কাছে কথাটা বলে বেড়াচ্ছে।,সে কথাটা শুধু একজনকে বলেছে।,not_entailment,iterative (many people),vector,authored,False
+N044,V15,মরা,মা সারাজীবন সংসারের জন্য খেটে মরলেন।,মায়ের খাটুনির কোনো প্রতিদান মেলেনি।,entailment,futility,vector,authored,False
+N045,V15,মরা,মা সারাজীবন সংসারের জন্য খেটে মরলেন।,অতিরিক্ত খাটুনির কারণে মা মারা গেলেন।,not_entailment,literal die lost,vector,authored,False
+N046,V15,মরা,তুমি অযথাই চেঁচিয়ে মরছ।,তোমার চেঁচানোয় কোনো লাভ হচ্ছে না।,entailment,futility,vector,authored,False
+N047,V16,দাঁড়ানো,ব্যাপারটা খুব জটিল হয়ে দাঁড়াল।,ব্যাপারটা জটিল হয়ে গেছে।,entailment,inchoative,vector,authored,False
+N048,V16,দাঁড়ানো,ব্যাপারটা খুব জটিল হয়ে দাঁড়াল।,কেউ একজন পায়ের উপর দাঁড়াল।,not_entailment,literal stand lost,vector,authored,False
+N049,V17,ছাড়া,লোকটা আমার কাছ থেকে পাঁচশো টাকা নিয়ে ছাড়ল।,টাকা না পাওয়া পর্যন্ত লোকটা থামেনি।,entailment,persistence,vector,authored,False
+N050,V17,ছাড়া,লোকটা আমার কাছ থেকে পাঁচশো টাকা নিয়ে ছাড়ল।,লোকটা কোনো জায়গা ছেড়ে চলে গেল।,not_entailment,literal leave lost,vector,authored,False
+N051,V17,ছাড়া,সে কাজটা শেষ করে ছাড়ল।,কাজটা শেষ হয়েছে।,entailment,persistence to goal,vector,authored,False
+N052,V01,ফেলা,সে পুরো গ্লাসের দুধটা খেয়ে ফেলল।,গ্লাসে আর দুধ নেই।,entailment,completion,vector,authored,False
+N053,V01,ফেলা,সে পুরো গ্লাসের দুধটা খেয়ে ফেলল।,সে গ্লাসটা মাটিতে ছুঁড়ে দিল।,not_entailment,literal drop lost,vector,authored,False
+N054,V01,ফেলা,সে দুধ খেয়ে গ্লাসটা মাটিতে ফেলল।,গ্লাসটা মাটিতে আছে।,entailment,literal drop (control),full_verb,authored,False
+N055,V01,ফেলা,ছেলেটা পরীক্ষার আগেই পুরো বইটা পড়ে ফেলেছে।,বইটার কিছু অংশ এখনও পড়া বাকি।,not_entailment,completion (contradiction),vector,authored,False
+N056,V01,ফেলা,ছেলেটা পরীক্ষার আগেই পুরো বইটা পড়ে ফেলেছে।,ছেলেটা বইটা কোথাও ছুঁড়ে ফেলে দিয়েছে।,not_entailment,literal drop lost,vector,authored,False
+N057,V01,ফেলা,ছেলেটা বইটা পড়ে টেবিলের নিচে ফেলেছে।,বইটা টেবিলের নিচে আছে।,entailment,literal drop (control),full_verb,authored,False
+N058,V01,ফেলা,অতিথিদের সামনে সে হঠাৎ গোপন কথাটা বলে ফেলল।,সে কথাটা অসাবধানে বলে দিল।,entailment,without intention,vector,authored,False
+N059,V01,ফেলা,অতিথিদের সামনে সে গোপন কথাটা বলল।,সে কথাটা অসাবধানে বলে দিল।,not_entailment,without intention (control),simple_verb,authored,False
+N060,V01,ফেলা,অতিথিদের সামনে সে হঠাৎ গোপন কথাটা বলে ফেলল।,সে কিছু একটা মেঝেতে ফেলল।,not_entailment,literal drop lost,vector,authored,False
+N061,V02,দেওয়া,মা আমার জামার বোতামটা সেলাই করে দিলেন।,মা কাজটা আমার জন্য করলেন।,entailment,benefactive (other),vector,authored,False
+N062,V02,দেওয়া,মা আমার জামার বোতামটা সেলাই করে দিলেন।,মা আমার হাতে কিছু টাকা দিলেন।,not_entailment,literal give lost,vector,authored,False
+N063,V02,দেওয়া,মা জামাটা সেলাই করে আমার হাতে দিলেন।,জামাটা এখন আমার হাতে।,entailment,literal give (control),full_verb,authored,False
+N064,V02,দেওয়া,বড় ভাই আমাকে অঙ্কটা বুঝিয়ে দিল।,বড় ভাই নিজে বোঝার জন্য অঙ্কটা পড়ল।,not_entailment,benefactive (contradiction),vector,authored,False
+N065,V02,দেওয়া,বড় ভাই আমাকে অঙ্কটা বুঝিয়ে দিল।,বড় ভাই আমাকে একটা জিনিস উপহার দিল।,not_entailment,literal give lost,vector,authored,False
+N066,V02,দেওয়া,বড় ভাই অঙ্কটা বুঝিয়ে খাতাটা আমার হাতে দিল।,খাতাটা আমার হাতে আছে।,entailment,literal give (control),full_verb,authored,False
+N067,V02,দেওয়া,দোকানি আমার জন্য প্যাকেটটা বেঁধে দিল।,দোকানি কাজটা আমার সুবিধার জন্য করল।,entailment,benefactive (other),vector,authored,False
+N068,V02,দেওয়া,দোকানি প্যাকেটটা বাঁধল।,দোকানি কাজটা আমার সুবিধার জন্য করল।,not_entailment,benefactive (control),simple_verb,authored,False
+N069,V02,দেওয়া,দোকানি আমার জন্য প্যাকেটটা বেঁধে দিল।,দোকানি আমাকে টাকা ফেরত দিল।,not_entailment,literal give lost,vector,authored,False
+N070,V03,নেওয়া,সে খাওয়ার আগে হাতটা ধুয়ে নিল।,সে কাজটা নিজের জন্য করল।,entailment,self-benefactive,vector,authored,False
+N071,V03,নেওয়া,সে খাওয়ার আগে হাতটা ধুয়ে নিল।,সে কারও কাছ থেকে কিছু একটা নিল।,not_entailment,literal take lost,vector,authored,False
+N072,V03,নেওয়া,সে আপেলটা ধুয়ে ঝুড়ি থেকে আরেকটা আপেল নিল।,সে ঝুড়ি থেকে একটা আপেল হাতে নিল।,entailment,literal take (control),full_verb,authored,False
+N073,V03,নেওয়া,পরীক্ষার আগে সে সূত্রগুলো একবার মিলিয়ে নিল।,সে সূত্রগুলো অন্য কারও জন্য মিলিয়ে দিল।,not_entailment,self-benefactive (contradiction),vector,authored,False
+N074,V03,নেওয়া,পরীক্ষার আগে সে সূত্রগুলো একবার মিলিয়ে নিল।,সে তাক থেকে সূত্রের বইটা তুলে নিল।,not_entailment,literal take lost,vector,authored,False
+N075,V03,নেওয়া,সে উত্তর মিলিয়ে বন্ধুর কাছ থেকে খাতাটা নিল।,খাতাটা এখন তার কাছে।,entailment,literal take (control),full_verb,authored,False
+N076,V03,নেওয়া,দিদি শাড়িটা ইস্ত্রি করে নিল।,দিদি কাজটা নিজের জন্য করল।,entailment,self-benefactive,vector,authored,False
+N077,V03,নেওয়া,দিদি শাড়িটা ইস্ত্রি করল।,দিদি কাজটা নিজের জন্য করল।,not_entailment,self-benefactive (control),simple_verb,authored,False
+N078,V03,নেওয়া,দিদি শাড়িটা ইস্ত্রি করে নিল।,দিদি কারও হাত থেকে শাড়িটা নিল।,not_entailment,literal take lost,vector,authored,False
+N079,V04,বসা,রাগের মাথায় সে চাকরিটা ছেড়ে বসল।,সিদ্ধান্তটা হুট করে নেওয়া হয়েছিল।,entailment,rash/unexpected,vector,authored,False
+N080,V04,বসা,রাগের মাথায় সে চাকরিটা ছেড়ে বসল।,চাকরি ছাড়ার পর সে চেয়ারে বসল।,not_entailment,literal sit lost,vector,authored,False
+N081,V04,বসা,সে চাকরি ছেড়ে বাড়ির বারান্দায় বসল।,সে বারান্দায় বসে আছে।,entailment,literal sit (control),full_verb,authored,False
+N082,V04,বসা,অতিথিদের সামনে ছেলেটা একটা বাজে কথা বলে বসল।,ছেলেটা ভেবেচিন্তে পরিকল্পনামাফিক কথাটা বলল।,not_entailment,unplanned action (contradiction),vector,authored,False
+N083,V04,বসা,অতিথিদের সামনে ছেলেটা একটা বাজে কথা বলে বসল।,কথা বলার পর ছেলেটা অতিথিদের পাশে বসল।,not_entailment,literal sit lost,vector,authored,False
+N084,V04,বসা,ছেলেটা কথাটা বলে অতিথিদের পাশে বসল।,ছেলেটা অতিথিদের পাশে বসে আছে।,entailment,literal sit (control),full_verb,authored,False
+N085,V04,বসা,সে না ভেবেই সব টাকা অপ্রয়োজনীয় জিনিসে খরচ করে বসল।,কাজটা করা তার উচিত হয়নি।,entailment,undesirable,vector,authored,False
+N086,V04,বসা,সে সব টাকা খরচ করল।,কাজটা করা তার উচিত হয়নি।,not_entailment,undesirable (control),simple_verb,authored,False
+N087,V04,বসা,সে না ভেবেই সব টাকা অপ্রয়োজনীয় জিনিসে খরচ করে বসল।,টাকা খরচের পর সে মাটিতে বসল।,not_entailment,literal sit lost,vector,authored,False
+N088,V05,ওঠা,অন্ধকারে শব্দ শুনে মেয়েটা চিৎকার করে উঠল।,মেয়েটা হঠাৎ চিৎকার শুরু করল।,entailment,inception/suddenness,vector,authored,False
+N089,V05,ওঠা,অন্ধকারে শব্দ শুনে মেয়েটা চিৎকার করে উঠল।,মেয়েটা সিঁড়ি বেয়ে উপরে গেল।,not_entailment,literal rise lost,vector,authored,False
+N090,V05,ওঠা,মেয়েটা চিৎকার করে ছাদে উঠল।,মেয়েটা ছাদের উপরে আছে।,entailment,literal rise (control),full_verb,authored,False
+N091,V05,ওঠা,খবরটা শুনে বাবা রেগে উঠলেন।,খবর শোনার আগে থেকেই বাবা রেগে ছিলেন।,not_entailment,inception (contradiction),vector,authored,False
+N092,V05,ওঠা,খবরটা শুনে বাবা রেগে উঠলেন।,বাবা চেয়ার ছেড়ে দোতলায় গেলেন।,not_entailment,literal rise lost,vector,authored,False
+N093,V05,ওঠা,বাবা রেগে দোতলায় উঠলেন।,বাবা এখন দোতলায় আছেন।,entailment,literal rise (control),full_verb,authored,False
+N094,V05,ওঠা,গান শুনে শিশুটা নেচে উঠল।,শিশুটা হঠাৎ নাচতে শুরু করল।,entailment,inception/suddenness,vector,authored,False
+N095,V05,ওঠা,শিশুটা নাচল।,শিশুটা হঠাৎ নাচতে শুরু করল।,not_entailment,inception (control),simple_verb,authored,False
+N096,V05,ওঠা,গান শুনে শিশুটা নেচে উঠল।,শিশুটা খাটের উপরে উঠল।,not_entailment,literal rise lost,vector,authored,False
+N097,V06,যাওয়া,রোদে ভেজা কাপড়গুলো শুকিয়ে গেল।,কাপড়গুলো এখন আর ভেজা নেই।,entailment,change of state,vector,authored,False
+N098,V06,যাওয়া,রোদে ভেজা কাপড়গুলো শুকিয়ে গেল।,কাপড়গুলো অন্য কোথাও সরিয়ে নেওয়া হলো।,not_entailment,literal go lost,vector,authored,False
+N099,V06,যাওয়া,সে কাপড় শুকিয়ে ছাদ থেকে নিচে গেল।,সে ছাদ থেকে নেমেছে।,entailment,literal go (control),full_verb,authored,False
+N100,V06,যাওয়া,তিনি সারাজীবন গরিবদের সাহায্য করে গেছেন।,তিনি মাত্র একবার গরিবদের সাহায্য করেছেন।,not_entailment,continuation (contradiction),vector,authored,False
+N101,V06,যাওয়া,তিনি সারাজীবন গরিবদের সাহায্য করে গেছেন।,তিনি সাহায্য করে অন্য শহরে চলে গেছেন।,not_entailment,literal go lost,vector,authored,False
+N102,V06,যাওয়া,তিনি গরিবদের সাহায্য করে গ্রামে গেছেন।,তিনি এখন গ্রামের পথে বা গ্রামে।,entailment,literal go (control),full_verb,authored,False
+N103,V06,যাওয়া,দুর্ঘটনার পর লোকটা পুরো বদলে গেল।,লোকটা আর আগের মতো নেই।,entailment,change of state,vector,authored,False
+N104,V06,যাওয়া,দুর্ঘটনার পর লোকটা একটু একটু করে বদলাচ্ছিল।,লোকটা আর আগের মতো নেই।,not_entailment,change of state (control),simple_verb,authored,False
+N105,V06,যাওয়া,দুর্ঘটনার পর লোকটা পুরো বদলে গেল।,লোকটা শহর ছেড়ে কোথাও চলে গেল।,not_entailment,literal go lost,vector,authored,False
+N106,V07,পড়া,পড়তে পড়তে ছেলেটা টেবিলেই ঘুমিয়ে পড়ল।,ছেলেটা এখন ঘুমাচ্ছে।,entailment,resulting state,vector,authored,False
+N107,V07,পড়া,পড়তে পড়তে ছেলেটা টেবিলেই ঘুমিয়ে পড়ল।,ছেলেটা টেবিল থেকে মেঝেতে পড়ে গেল।,not_entailment,literal fall lost,vector,authored,False
+N108,V07,পড়া,ছেলেটা ঘুমিয়ে খাট থেকে মেঝেতে পড়ল।,ছেলেটা খাট থেকে নিচে পড়েছে।,entailment,literal fall (control),full_verb,authored,False
+N109,V07,পড়া,বৃষ্টি থামতেই আমরা রাস্তায় বেরিয়ে পড়লাম।,আমরা অনেক দেরি করে ধীরেসুস্থে বের হলাম।,not_entailment,sudden onset (contradiction),vector,authored,False
+N110,V07,পড়া,বৃষ্টি থামতেই আমরা রাস্তায় বেরিয়ে পড়লাম।,আমরা রাস্তায় পিছলে পড়ে গেলাম।,not_entailment,literal fall lost,vector,authored,False
+N111,V07,পড়া,আমরা ঘর থেকে বেরিয়ে পিছলে কাদায় পড়লাম।,আমরা কাদায় পড়েছি।,entailment,literal fall (control),full_verb,authored,False
+N112,V07,পড়া,অতিরিক্ত পরিশ্রমে বাবা অসুস্থ হয়ে পড়লেন।,বাবা এখন অসুস্থ।,entailment,resulting state,vector,authored,False
+N113,V07,পড়া,বাবা অতিরিক্ত পরিশ্রম করছিলেন।,বাবা এখন অসুস্থ।,not_entailment,resulting state (control),simple_verb,authored,False
+N114,V07,পড়া,অতিরিক্ত পরিশ্রমে বাবা অসুস্থ হয়ে পড়লেন।,বাবা পা পিছলে মাটিতে পড়ে গেলেন।,not_entailment,literal fall lost,vector,authored,False
+N115,V08,রাখা,সে আগেই হোটেলের রুম বুক করে রেখেছে।,রুমটা আগে থেকেই বুক করা আছে।,entailment,done in advance,vector,authored,False
+N116,V08,রাখা,সে আগেই হোটেলের রুম বুক করে রেখেছে।,সে রুমের চাবিটা টেবিলে রাখল।,not_entailment,literal put lost,vector,authored,False
+N117,V08,রাখা,সে রুম বুক করে রসিদটা ব্যাগে রাখল।,রসিদটা ব্যাগে আছে।,entailment,literal put (control),full_verb,authored,False
+N118,V08,রাখা,মা অতিথিদের জন্য আগে থেকেই ঘর গুছিয়ে রেখেছেন।,অতিথিরা আসার পর মা ঘর গোছাতে শুরু করবেন।,not_entailment,done in advance (contradiction),vector,authored,False
+N119,V08,রাখা,মা অতিথিদের জন্য আগে থেকেই ঘর গুছিয়ে রেখেছেন।,মা একটা জিনিস তাকের উপর রাখলেন।,not_entailment,literal put lost,vector,authored,False
+N120,V08,রাখা,মা ঘর গুছিয়ে ঝাড়ুটা কোণে রাখলেন।,ঝাড়ুটা ঘরের কোণে আছে।,entailment,literal put (control),full_verb,authored,False
+N121,V08,রাখা,সে ফোন নম্বরটা খাতায় লিখে রেখেছে।,নম্বরটা খাতায় লেখা আছে।,entailment,resultant state kept,vector,authored,False
+N122,V08,রাখা,সে ফোন নম্বরটা লিখছিল।,নম্বরটা খাতায় লেখা আছে।,not_entailment,resultant state (control),simple_verb,authored,False
+N123,V08,রাখা,সে ফোন নম্বরটা খাতায় লিখে রেখেছে।,সে খাতাটা টেবিলের উপর রাখল।,not_entailment,literal put lost,vector,authored,False
+N124,V09,আসা,এই পরিবার তিন পুরুষ ধরে মাছের ব্যবসা করে আসছে।,পরিবারটি অনেক বছর ধরে মাছের ব্যবসা করছে।,entailment,long duration up to now,vector,authored,False
+N125,V09,আসা,এই পরিবার তিন পুরুষ ধরে মাছের ব্যবসা করে আসছে।,পরিবারটি অন্য কোথাও থেকে এখানে আসছে।,not_entailment,literal come lost,vector,authored,False
+N126,V09,আসা,সে মাছ বিক্রি করে বাজার থেকে বাড়ি আসছে।,সে বাড়ির দিকে আসছে।,entailment,literal come (control),full_verb,authored,False
+N127,V09,আসা,আমরা ছোটবেলা থেকে এই রীতি মেনে আসছি।,আমরা রীতিটা মাত্র কিছুদিন হলো মানতে শুরু করেছি।,not_entailment,long duration (contradiction),vector,authored,False
+N128,V09,আসা,আমরা ছোটবেলা থেকে এই রীতি মেনে আসছি।,আমরা কোনো জায়গা থেকে ফিরে আসছি।,not_entailment,literal come lost,vector,authored,False
+N129,V09,আসা,আমরা পুজো দিয়ে মন্দির থেকে আসছি।,আমরা মন্দির থেকে ফিরছি।,entailment,literal come (control),full_verb,authored,False
+N130,V09,আসা,শীতের বিকেলে আলো কমে আসছে।,আলো ধীরে ধীরে কমছে।,entailment,gradual approach,vector,authored,False
+N131,V09,আসা,শীতের বিকেলে আলো কম।,আলো ধীরে ধীরে কমছে।,not_entailment,gradual approach (control),simple_verb,authored,False
+N132,V09,আসা,শীতের বিকেলে আলো কমে আসছে।,কেউ আলো হাতে এদিকে আসছে।,not_entailment,literal come lost,vector,authored,False
+N133,V10,আনা,রাজমিস্ত্রি দেয়ালটা প্রায় গেঁথে এনেছে।,দেয়ালের কাজ প্রায় শেষ।,entailment,approaching completion,vector,authored,False
+N134,V10,আনা,রাজমিস্ত্রি দেয়ালটা প্রায় গেঁথে এনেছে।,রাজমিস্ত্রি কোথাও থেকে কিছু নিয়ে এসেছে।,not_entailment,literal bring lost,vector,authored,False
+N135,V10,আনা,রাজমিস্ত্রি ইট গেঁথে বাকি ইটগুলো উঠোনে এনেছে।,বাকি ইটগুলো উঠোনে আছে।,entailment,literal bring (control),full_verb,authored,False
+N136,V10,আনা,মা সোয়েটারটা প্রায় বুনে এনেছেন।,সোয়েটারটা বোনা পুরোপুরি শেষ।,not_entailment,approaching completion (contradiction),vector,authored,False
+N137,V10,আনা,মা সোয়েটারটা প্রায় বুনে এনেছেন।,মা দোকান থেকে একটা সোয়েটার কিনে এনেছেন।,not_entailment,literal bring lost,vector,authored,False
+N138,V10,আনা,মা সোয়েটার বুনে বাজার থেকে আরও উল এনেছেন।,বাড়িতে নতুন উল আছে।,entailment,literal bring (control),full_verb,authored,False
+N139,V10,আনা,ছাত্রটা থিসিসটা প্রায় লিখে এনেছে।,থিসিস লেখা শেষের পথে।,entailment,approaching completion,vector,authored,False
+N140,V10,আনা,ছাত্রটা থিসিসটা লিখছে।,থিসিস লেখা শেষের পথে।,not_entailment,approaching completion (control),simple_verb,authored,False
+N141,V10,আনা,ছাত্রটা থিসিসটা প্রায় লিখে এনেছে।,ছাত্রটা থিসিসের কপি হাতে করে নিয়ে এসেছে।,not_entailment,literal bring lost,vector,authored,False
+N142,V11,তোলা,শিক্ষকেরা মিলে স্কুলটাকে আদর্শ প্রতিষ্ঠান হিসেবে গড়ে তুলেছেন।,স্কুলটা এখন একটা আদর্শ প্রতিষ্ঠান।,entailment,attainment,vector,authored,False
+N143,V11,তোলা,শিক্ষকেরা মিলে স্কুলটাকে আদর্শ প্রতিষ্ঠান হিসেবে গড়ে তুলেছেন।,শিক্ষকেরা কোনো জিনিস মাটি থেকে উঁচুতে তুললেন।,not_entailment,literal lift lost,vector,authored,False
+N144,V11,তোলা,শ্রমিকেরা ইটগুলো সাজিয়ে ট্রাকে তুলেছে।,ইটগুলো ট্রাকে আছে।,entailment,literal lift (control),full_verb,authored,False
+N145,V11,তোলা,গায়কের গান অনুষ্ঠানটা জমিয়ে তুলল।,অনুষ্ঠানটা একঘেয়ে আর নিষ্প্রাণ হয়ে রইল।,not_entailment,attainment (contradiction),vector,authored,False
+N146,V11,তোলা,গায়কের গান অনুষ্ঠানটা জমিয়ে তুলল।,গায়ক কিছু একটা হাতে তুলে ধরল।,not_entailment,literal lift lost,vector,authored,False
+N147,V11,তোলা,গায়ক গান গেয়ে হারমোনিয়ামটা গাড়িতে তুলল।,হারমোনিয়ামটা গাড়িতে আছে।,entailment,literal lift (control),full_verb,authored,False
+N148,V11,তোলা,বাবা-মা অনেক কষ্টে ছেলেটাকে মানুষ করে তুলেছেন।,ছেলেটা বড় হয়ে একজন যোগ্য মানুষ হয়েছে।,entailment,attainment,vector,authored,False
+N149,V11,তোলা,বাবা-মা ছেলেটাকে পড়াশোনা করাচ্ছেন।,ছেলেটা বড় হয়ে একজন যোগ্য মানুষ হয়েছে।,not_entailment,attainment (control),simple_verb,authored,False
+N150,V11,তোলা,বাবা-মা অনেক কষ্টে ছেলেটাকে মানুষ করে তুলেছেন।,বাবা-মা ছেলেটাকে কোলে তুলে নিলেন।,not_entailment,literal lift lost,vector,authored,False
+N151,V12,চলা,দাদু সকাল থেকে খবরের কাগজ পড়ে চলেছেন।,দাদু এখনও কাগজ পড়ছেন।,entailment,continuous action,vector,authored,False
+N152,V12,চলা,দাদু সকাল থেকে খবরের কাগজ পড়ে চলেছেন।,দাদু হেঁটে কোথাও যাচ্ছেন।,not_entailment,literal walk lost,vector,authored,False
+N153,V12,চলা,দাদু কাগজ পড়ে বাজারের দিকে চলেছেন।,দাদু বাজারের দিকে যাচ্ছেন।,entailment,literal walk (control),full_verb,authored,False
+N154,V12,চলা,শ্রমিকেরা থামাথামি ছাড়াই রাস্তা খুঁড়ে চলেছে।,শ্রমিকেরা কিছুক্ষণ পরপর লম্বা বিরতি নিচ্ছে।,not_entailment,continuous action (contradiction),vector,authored,False
+N155,V12,চলা,শ্রমিকেরা থামাথামি ছাড়াই রাস্তা খুঁড়ে চলেছে।,শ্রমিকেরা রাস্তা ধরে হেঁটে বাড়ি যাচ্ছে।,not_entailment,literal walk lost,vector,authored,False
+N156,V12,চলা,শ্রমিকেরা রাস্তা খুঁড়ে বাড়ির দিকে চলেছে।,শ্রমিকেরা বাড়ির দিকে যাচ্ছে।,entailment,literal walk (control),full_verb,authored,False
+N157,V12,চলা,মেয়েটা ঘণ্টার পর ঘণ্টা গান গেয়ে চলেছে।,মেয়েটা অনেকক্ষণ ধরে একটানা গাইছে।,entailment,continuous action,vector,authored,False
+N158,V12,চলা,মেয়েটা একটা গান গাইল।,মেয়েটা অনেকক্ষণ ধরে একটানা গাইছে।,not_entailment,continuous action (control),simple_verb,authored,False
+N159,V12,চলা,মেয়েটা ঘণ্টার পর ঘণ্টা গান গেয়ে চলেছে।,মেয়েটা হেঁটে কোথাও যাচ্ছে।,not_entailment,literal walk lost,vector,authored,False
+N160,V13,পাঠানো,জমিদার লাঠিয়ালদের ডেকে পাঠালেন।,জমিদার অন্য কারও মাধ্যমে লাঠিয়ালদের খবর দিলেন।,entailment,causative (through someone),vector,authored,False
+N161,V13,পাঠানো,জমিদার লাঠিয়ালদের ডেকে পাঠালেন।,জমিদার লাঠিয়ালদের অন্য গ্রামে পাঠিয়ে দিলেন।,not_entailment,literal send lost,vector,authored,False
+N162,V13,পাঠানো,জমিদার নায়েবকে ডেকে লাঠিয়ালদের গ্রামে পাঠালেন।,লাঠিয়ালরা গ্রামের দিকে গেল।,entailment,literal send (control),full_verb,authored,False
+N163,V13,পাঠানো,"বাবা চিঠিতে বলে পাঠিয়েছেন, তিনি ভালো আছেন।",বাবা নিজে এসে মুখে কথাটা বললেন।,not_entailment,causative (contradiction),vector,authored,False
+N164,V13,পাঠানো,"বাবা চিঠিতে বলে পাঠিয়েছেন, তিনি ভালো আছেন।",বাবা কাউকে কোথাও পাঠিয়ে দিয়েছেন।,not_entailment,literal send lost,vector,authored,False
+N165,V13,পাঠানো,বাবা সব বুঝিয়ে বলে ভাইকে শহরে পাঠিয়েছেন।,ভাই শহরের দিকে গেছে।,entailment,literal send (control),full_verb,authored,False
+N166,V13,পাঠানো,দাদি প্রতিবেশীর কাছে একটু হলুদ চেয়ে পাঠালেন।,দাদি কারও মাধ্যমে হলুদ চাইলেন।,entailment,causative (through someone),vector,authored,False
+N167,V13,পাঠানো,দাদি প্রতিবেশীর কাছে একটু হলুদ চাইলেন।,দাদি কারও মাধ্যমে হলুদ চাইলেন।,not_entailment,causative (control),simple_verb,authored,False
+N168,V13,পাঠানো,দাদি প্রতিবেশীর কাছে একটু হলুদ চেয়ে পাঠালেন।,দাদি প্রতিবেশীর বাড়িতে হলুদ পাঠালেন।,not_entailment,literal send lost,vector,authored,False
+N169,V14,বেড়ানো,লোকটা গ্রামে গ্রামে ঘুরে ওষুধ বিক্রি করে বেড়ায়।,লোকটা অনেক জায়গায় ঘুরে ওষুধ বেচে।,entailment,iterative/many places,vector,authored,False
+N170,V14,বেড়ানো,লোকটা গ্রামে গ্রামে ঘুরে ওষুধ বিক্রি করে বেড়ায়।,লোকটা অবসরে হাওয়া খেতে বেড়াতে যায়।,not_entailment,literal stroll lost,vector,authored,False
+N171,V14,বেড়ানো,লোকটা ওষুধ বিক্রি করে বিকেলে নদীর ধারে বেড়ায়।,লোকটা বিকেলে নদীর ধারে হাঁটে।,entailment,literal stroll (control),full_verb,authored,False
+N172,V14,বেড়ানো,সে সবার কাছে আমার নামে নিন্দা করে বেড়াচ্ছে।,সে নিন্দাটা মাত্র একজনের কাছে করেছে।,not_entailment,iterative (contradiction),vector,authored,False
+N173,V14,বেড়ানো,সে সবার কাছে আমার নামে নিন্দা করে বেড়াচ্ছে।,সে আনন্দভ্রমণে বেরিয়েছে।,not_entailment,literal stroll lost,vector,authored,False
+N174,V14,বেড়ানো,সে নিন্দা করে সন্ধ্যায় পার্কে বেড়াচ্ছে।,সে সন্ধ্যায় পার্কে হাঁটছে।,entailment,literal stroll (control),full_verb,authored,False
+N175,V14,বেড়ানো,কুকুরটা সারা পাড়া দৌড়ে বেড়ায়।,কুকুরটা পাড়ার নানা দিকে ছুটোছুটি করে।,entailment,aimless/iterative,vector,authored,False
+N176,V14,বেড়ানো,কুকুরটা দৌড়ায়।,কুকুরটা পাড়ার নানা দিকে ছুটোছুটি করে।,not_entailment,aimless/iterative (control),simple_verb,authored,False
+N177,V14,বেড়ানো,কুকুরটা সারা পাড়া দৌড়ে বেড়ায়।,কুকুরটা মালিকের সঙ্গে বেড়াতে গেছে।,not_entailment,literal stroll lost,vector,authored,False
+N178,V15,মরা,সারাদিন রোদে পুড়ে চাকরি খুঁজে মরলাম।,চাকরি খোঁজার চেষ্টা সফল হয়নি।,entailment,futility,vector,authored,False
+N179,V15,মরা,সারাদিন রোদে পুড়ে চাকরি খুঁজে মরলাম।,চাকরি খুঁজতে গিয়ে আমার মৃত্যু হলো।,not_entailment,literal die lost,vector,authored,False
+N180,V15,মরা,রোগে ভুগে লোকটা শেষে মরল।,লোকটা আর বেঁচে নেই।,entailment,literal die (control),full_verb,authored,False
+N181,V15,মরা,সে বছরের পর বছর মামলা লড়ে মরল।,মামলায় সে সহজেই জিতেছে এবং খুশি।,not_entailment,futility (contradiction),vector,authored,False
+N182,V15,মরা,সে বছরের পর বছর মামলা লড়ে মরল।,মামলা চলাকালে লোকটা মারা গেল।,not_entailment,literal die lost,vector,authored,False
+N183,V15,মরা,অনাহারে কষ্ট পেয়ে বিড়ালটা মরল।,বিড়ালটা আর বেঁচে নেই।,entailment,literal die (control),full_verb,authored,False
+N184,V15,মরা,আমি তাকে বুঝিয়ে বুঝিয়ে মরলাম।,আমার বোঝানোর কোনো ফল হয়নি।,entailment,futility,vector,authored,False
+N185,V15,মরা,আমি তাকে বুঝিয়েছিলাম।,আমার বোঝানোর কোনো ফল হয়নি।,not_entailment,futility (control),simple_verb,authored,False
+N186,V15,মরা,আমি তাকে বুঝিয়ে বুঝিয়ে মরলাম।,বোঝাতে গিয়ে আমার মৃত্যু হলো।,not_entailment,literal die lost,vector,authored,False
+N187,V16,দাঁড়ানো,মাদক এখন তরুণদের জন্য বড় সমস্যা হয়ে দাঁড়িয়েছে।,মাদক এখন তরুণদের জন্য একটা গুরুতর সমস্যা।,entailment,inchoative (become),vector,authored,False
+N188,V16,দাঁড়ানো,মাদক এখন তরুণদের জন্য বড় সমস্যা হয়ে দাঁড়িয়েছে।,কেউ একজন তরুণদের সামনে দাঁড়িয়ে আছে।,not_entailment,literal stand lost,vector,authored,False
+N189,V16,দাঁড়ানো,লোকটা চিন্তিত হয়ে গেটের সামনে দাঁড়িয়েছে।,লোকটা গেটের সামনে দাঁড়িয়ে আছে।,entailment,literal stand (control),full_verb,authored,False
+N190,V16,দাঁড়ানো,লোকসানের পর কোম্পানিটা আবার ঘুরে দাঁড়িয়েছে।,কোম্পানিটার অবস্থা আগের চেয়ে আরও খারাপ হয়েছে।,not_entailment,recovery (contradiction),vector,authored,False
+N191,V16,দাঁড়ানো,লোকসানের পর কোম্পানিটা আবার ঘুরে দাঁড়িয়েছে।,কোম্পানির লোকেরা পেছন ফিরে দাঁড়াল।,not_entailment,literal stand lost,vector,authored,False
+N192,V16,দাঁড়ানো,ডাক শুনে মেয়েটা পেছনে ঘুরে দাঁড়াল।,মেয়েটা এখন পেছন দিকে মুখ করে দাঁড়িয়ে আছে।,entailment,literal stand (control),full_verb,authored,False
+N193,V16,দাঁড়ানো,গ্রামবাসী দখলদারদের বিরুদ্ধে রুখে দাঁড়াল।,গ্রামবাসী দখলদারদের প্রতিরোধ করল।,entailment,resistance,vector,authored,False
+N194,V16,দাঁড়ানো,গ্রামবাসী দখলদারদের দেখল।,গ্রামবাসী দখলদারদের প্রতিরোধ করল।,not_entailment,resistance (control),simple_verb,authored,False
+N195,V16,দাঁড়ানো,গ্রামবাসী দখলদারদের বিরুদ্ধে রুখে দাঁড়াল।,গ্রামবাসী বসা থেকে উঠে পায়ের উপর দাঁড়াল।,not_entailment,literal stand lost,vector,authored,False
+N196,V17,ছাড়া,মা ছেলেকে ডাক্তার দেখিয়ে ছাড়লেন।,ছেলেকে ডাক্তার দেখানো হয়েছে।,entailment,persistence to goal,vector,authored,False
+N197,V17,ছাড়া,মা ছেলেকে ডাক্তার দেখিয়ে ছাড়লেন।,মা ছেলেকে কোথাও রেখে চলে গেলেন।,not_entailment,literal leave lost,vector,authored,False
+N198,V17,ছাড়া,মা ছেলেকে ডাক্তার দেখিয়ে হাসপাতাল ছাড়লেন।,মা হাসপাতাল থেকে বেরিয়ে গেলেন।,entailment,literal leave (control),full_verb,authored,False
+N199,V17,ছাড়া,জেদি ছেলেটা পাহাড়ের চূড়ায় উঠে ছাড়ল।,ছেলেটা চূড়ায় ওঠার আগেই হাল ছেড়ে দিল।,not_entailment,persistence (contradiction),vector,authored,False
+N200,V17,ছাড়া,জেদি ছেলেটা পাহাড়ের চূড়ায় উঠে ছাড়ল।,ছেলেটা পাহাড় ছেড়ে চলে গেল।,not_entailment,literal leave lost,vector,authored,False
+N201,V17,ছাড়া,ছেলেটা চূড়ায় উঠে দড়িটা ছাড়ল।,ছেলেটা দড়িটা আর ধরে নেই।,entailment,literal release (control),full_verb,authored,False
+N202,V17,ছাড়া,সে সারারাত জেগে অঙ্কটা মিলিয়ে ছাড়ল।,অঙ্কটা শেষ পর্যন্ত মিলেছে।,entailment,persistence to goal,vector,authored,False
+N203,V17,ছাড়া,সে সারারাত জেগে অঙ্কটা মেলানোর চেষ্টা করল।,অঙ্কটা শেষ পর্যন্ত মিলেছে।,not_entailment,persistence (control),simple_verb,authored,False
+N204,V17,ছাড়া,সে সারারাত জেগে অঙ্কটা মিলিয়ে ছাড়ল।,সে অঙ্কের খাতাটা হাত থেকে ছেড়ে দিল।,not_entailment,literal release lost,vector,authored,False
